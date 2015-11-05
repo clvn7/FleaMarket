@@ -1,0 +1,80 @@
+﻿        body
+        {
+            margin:0;
+            padding:0;
+            width:1000px;
+            margin:0 auto;
+        }
+        #out
+        {
+            height:600px;
+            width:1000px;
+            float:left;
+            background-color:#f6f6f6;
+        }
+        #center
+        {
+            height: 560px;
+            width: 960px;
+            margin: 20px;
+            background-color: #6c7889;
+        }
+        #top /*返回首页连接*/
+        {
+            height:40px;
+            width:960px;
+            float:left;
+        
+        }
+        #link /*返回首页连接*/
+        {
+            height: 40px;
+            width: 155px;
+            margin-left:80px;
+        }
+        #link a:link /*首页字体样式*/
+        {
+
+            font-size: 30px;
+            text-decoration: none;
+            font-family: 造字工房尚黑（非商用）特细体; 
+            font-weight: 900; 
+            color: #FFFFFF;
+
+        }
+        #loginBox           /*登陆框*/
+        {
+            height: 320px;
+            width: 420px;
+            background-image:url(../Images/loginBox.jpg);
+            margin-top:100px;
+            margin-left:250px;
+            float:left;
+        }
+
+        #textname           /*管理员名*/
+        {
+            height:46px;
+            width:416px;
+            margin-top:105px;
+        }
+        #textpsw            /*管理员密码*/
+        {
+            height:46px;
+            width:416px;
+            margin-top:30px;
+        }
+        #buttonlogin        /*登陆按钮*/
+        {
+            height:34px;
+            width:88px;
+            margin-top:15px;
+            margin-left:118px;
+            float:left;
+
+        }
+         #foot 
+        {
+            height:88px;
+            width:416px;
+        }

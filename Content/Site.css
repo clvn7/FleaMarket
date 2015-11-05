@@ -1,0 +1,92 @@
+﻿        body
+        {
+            margin:0;
+            padding:0;
+            width:1000px;
+            margin:0 auto;
+        }
+        #out
+        {
+            height:600px;
+            width:1000px;
+            background-color:#f6f6f6;
+            float:left;
+        }
+        #center
+        {
+            height:560px;
+            width:960px;
+            background-color: #FF9F9A;
+            margin:20px;
+        }
+        #top
+        {
+            height:40px;
+            width:960px;
+            background-image:url(../Images/top.jpg);
+            float:left;
+        }
+        #link
+        {
+            height: 40px;
+            width: 155px;
+            margin-left:80px;
+        }
+        #link a:link
+        {
+            font-size: 30px;
+            text-decoration: none;
+            font-family: 造字工房尚黑（非商用）特细体; 
+            font-weight: 900; 
+            color: #FFFFFF;
+        }
+        #box
+        {
+            width:1000px;
+            height:502px
+        }
+        #tishicuowu  /*错误提示*/
+        {
+            width:977px;
+            height:100px
+        }
+        #loginBox
+        {
+            height: 320px;
+            width: 420px;
+            background-image:url(../Images/loginBox.jpg);
+            margin-left:250px;
+            float:left;
+        }
+        #textname  /*用户名*/
+        {
+            height:46px;
+            width:416px;
+            margin-top:105px;
+        }
+        #textpsw   /*用户密码*/
+        {
+            height: 39px;
+            width: 324px;
+            margin-top: 30px;
+        }
+        #buttonlogin  /*登陆*/
+        {
+            height:34px;
+            width:88px;
+            margin-top:15px;
+            margin-left:120px;
+            float:left;
+        }
+        #back   /*返回注册*/
+        {
+            width: 161px;
+            height: 81px;
+            float:left;
+
+        }
+        #foot
+        {
+            height:88px;
+            width:416px;
+        }

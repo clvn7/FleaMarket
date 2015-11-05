@@ -1,0 +1,167 @@
+﻿    body
+    {
+        margin: 0;
+        padding: 0;
+        background-color:#808080;
+        /*background-image: url('../Images/all.jpg');*/
+    }
+    #all
+    {
+        margin: 0 auto; 
+        width:1000px; 
+    }
+    #head
+    {
+        height: 150px;
+        width: 1000px;
+    }
+    #center
+    {
+        height: 1400px;
+        width: 1000px;
+        margin-top:30px;
+    }
+    .goods                                              /*分类*/
+    {
+        height: 330px;
+        width: 1000px;
+        background-color: #f5f6e8;
+        margin-bottom:20px;
+    }
+    #topicblue,topicyellow,topicpink,topicgreen           /*分类标题图片位置*/
+    {
+        height: 50px;
+        width: 1000px;
+    }
+    .down                                                 /*商品展示区域*/
+    {
+        height: 280px;
+        width: 920px;
+        margin-left:40px;
+    }
+    .showout                                              /*商品展示框*/
+    {
+        height: 280px;
+        width: 280px;
+        background-color: #FFFFFF;
+        margin-left:20px;
+        filter: progid:DXImageTransform.Microsoft.Shado(Strength=4, Direction=94, Color='#999999');
+        box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        -moz-box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        -webkit-box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        float:left;
+    }
+    .showover                                              /*鼠标滑动边框显色*/
+    {
+        height: 280px;
+        width: 280px;
+        background-color: #307172;
+        margin-left:20px;
+        filter: progid:DXImageTransform.Microsoft.Shado(Strength=4, Direction=94, Color='#999999');
+        box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        -moz-box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        -webkit-box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        float:left;
+    }
+    .picture                                                            /*图片区域*/
+    {
+        height:207px;
+        width:274px;
+        margin:3px 3px 0px 3px;
+        background-color: #FFFFFF;
+    }
+    .mess                                                           /*商品信息区域*/
+    {
+        height:67px;
+        width:274px;
+        margin:0px 3px 3px 3px;
+        background-color:#e7e8d8;
+    }
+    A 
+    {
+        COLOR: #333333;
+        FONT-SIZE: 12px; 
+        TEXT-DECORATION: none;
+     }
+    A:hover 
+    {
+        COLOR: #FF0000; 
+        FONT-SIZE: 12px; 
+        TEXT-DECORATION: none;
+        }
+.main_head
+{
+    BACKGROUND: url('../Images/img2.png') no-repeat;
+}
+* HTML .main_head {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.zzsky.cn/effect/images/201002281045/img3-5_2.png",sizingMethod='crop'); BACKGROUND: none transparent scroll repeat 0% 0%
+}
+* + HTML .main_head
+{
+    BACKGROUND: url('../Images/img2.png') no-repeat;
+}
+.info {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.zzsky.cn/effect/images/201002281045/img3-5_3.png) repeat-y; PADDING-TOP: 5px
+}
+* HTML .info {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.zzsky.cn/effect/images/201002281045/img3-5_3.png",sizingMethod='crop'); BACKGROUND-REPEAT: repeat-y
+}
+* + HTML .info {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://www.zzsky.cn/effect/images/201002281045/img3-5_3.png) repeat-y; PADDING-TOP: 5px
+}
+.down_kefu
+{
+    WIDTH: 157px;
+    BACKGROUND: url(../Images/img4.png) no-repeat;
+    HEIGHT: 8px;
+}
+* HTML .down_kefu
+{
+    FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../Images/img3-5_4.png",sizingMethod='crop');
+    WIDTH: 157px;
+    BACKGROUND-REPEAT: repeat-y;
+    HEIGHT: 8px;
+    background-image: url('../Images/img4.png');
+}
+* + HTML .down_kefu
+{
+    WIDTH: 157px;
+    BACKGROUND: url(../Images/img4.png) no-repeat;
+    HEIGHT: 8px;
+}
+.Obtn
+{
+    MARGIN-TOP: 104px;
+    WIDTH: 32px;
+    BACKGROUND: url(../Images/img1.png) no-repeat;
+    FLOAT: left;
+    HEIGHT: 139px;
+    MARGIN-LEFT: -5px;
+}
+* HTML .Obtn {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../Images/img3-5_1.png",sizingMethod='crop'); WIDTH: 32px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; HEIGHT: 139px
+}
+* + HTML .Obtn
+{
+    MARGIN-TOP: 104px;
+    WIDTH: 32px;
+    BACKGROUND: url(../Images/img1.png) no-repeat;
+    FLOAT: left;
+    HEIGHT: 139px;
+    MARGIN-LEFT: -5px;
+}
+.qqtable span {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 20px; PADDING-LEFT: 0px; WIDTH: 100px; PADDING-RIGHT: 0px; COLOR: #ff6600; font-SIZE: 13px; font-WEIGHT: bold; PADDING-TOP: 5px
+}
+.qqtable A {
+	TEXT-DECORATION: none
+}
+.qqtable A:hover {
+	TEXT-DECORATION: none
+}
+.qun {
+	BORDER-BOTTOM: #098A27 1px solid; BORDER-LEFT: #098A27 1px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 20px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 0px; WIDTH: 100px; PADDING-RIGHT: 0px; font-SIZE: 12px; BORDER-TOP: #098A27 1px solid; BORDER-RIGHT: #098A27 1px solid; PADDING-TOP: 5px
+}
+.qun span {
+	COLOR: #000000; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}

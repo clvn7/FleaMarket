@@ -1,0 +1,83 @@
+﻿        body
+        {
+            margin:0;
+            padding:0;
+        }
+        #all
+        {
+            margin: 0 auto;
+            width: 1000px;
+            height: 1000px;
+            margin: 0 auto;
+            background-image: url('../Images/person.jpg');
+        }
+
+        #left
+        {
+            height:1000px;
+            width:230px;
+            margin-left:20px;
+            float: left;
+        }
+
+        #person
+        {
+            height: 236px;
+            width: 201px;
+            margin-left: 25px;
+            margin-top: 164px;
+            float: left;
+            color: #FFFFFF;
+            font-size: 20px;
+        }
+
+        #right
+        {
+            height:1000px;
+            width:750px;
+            margin-left:270px;
+
+        }
+        #show
+        {
+            height:870px;
+            width:660px;
+            margin-top:60px; 
+            float:left;
+        }
+        .one
+        {
+            height:232px;
+            width:660px;
+            margin-left:50px;
+            margin-top:20px;
+            margin-bottom:40px;
+            float:left;
+
+        }
+
+        #next
+        {
+            width:228px;
+            height:40px;
+            float:left;
+            margin-top: 70px;
+        }
+        #right-mess
+        {
+            width: 210px;
+            height: 260px;
+            margin-left:10px;
+            margin-top:60px;
+            float:left;
+
+        }
+        #right-picture
+        {
+            width: 200px;
+            height: 260px;
+            margin-left:220px;
+            margin-top:60px;
+            float:left;
+
+        }

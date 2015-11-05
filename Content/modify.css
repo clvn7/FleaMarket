@@ -1,0 +1,29 @@
+﻿    body
+    {
+        margin:0;
+        padding:0;
+    }
+    #all
+    {
+        margin: 0 auto;
+        width: 1000px;
+        margin: 0 auto;
+        background-image: url('../Images/publish.jpg');
+        width:1000px;
+        height:1000px;
+    }
+            #head
+        {
+            height: 19px;
+            width: 146px;
+            margin-left: 231px;
+            margin-top: 250px;
+            float:left;
+        }
+    #center
+    {    height: 478px;
+        width: 617px;
+        margin-left: 280px;
+        margin-top: 70px;
+        float:left;
+    }

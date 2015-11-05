@@ -1,0 +1,77 @@
+﻿
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background-color:#808080;
+        /*background-image: url('../Images/all.jpg');*/
+    
+    }
+    #all
+    {
+        margin: 0 auto; 
+        width:1000px; 
+
+    }
+    #head /*导航*/
+    {
+        height: 100px;
+        width: 1000px;
+        background-image: url('../Images/head.png');
+
+    }
+    #center /*除去导航余下全部*/
+    {
+        height: 1200px;
+        width:1000px;
+        background-image: url('../Images/life.png');
+        float:left;
+
+    }
+    #show /*除去导航余下全部，不带背景*/
+    {
+        height: 1116px;
+        width:1000px;
+        margin-top: 250px;
+    }
+
+    .showout /*商品展示区*/
+    {
+        height: 280px;
+        width: 280px;
+        background-color: #FFF;
+        margin-left:40px;
+        margin-bottom:60px;
+        filter: progid:DXImageTransform.Microsoft.Shado(Strength=4, Direction=94, Color='#999999');
+        box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        -moz-box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        -webkit-box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        float:left;
+    }
+    .showover /*商品展示，边框变色*/
+    {
+        height: 280px;
+        width: 280px;
+        background-color: #e73f96;
+        margin-left:40px;
+        margin-bottom:60px;
+        filter: progid:DXImageTransform.Microsoft.Shado(Strength=4, Direction=94, Color='#999999');
+        box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        -moz-box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        -webkit-box-shadow:3px 3px 3px rgba(100,100,100,.6);
+        float:left;
+    }
+    .picture /*商品展示，边框变色*/
+    {
+        height:207px;
+        width:274px;
+        margin:3px 3px 0px 3px;
+        background-color: #FFFFFF;
+    }
+    .mess /*商品信息*/
+    {
+        height:67px;
+        width:274px;
+        margin:0px 3px 3px 3px;
+        background-color:#e7e8d8;
+    }

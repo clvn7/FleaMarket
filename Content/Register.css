@@ -1,0 +1,75 @@
+﻿        body
+        {
+            padding:0;
+            width:1000px;
+            margin:0 auto;
+        }
+        #out /*整体*/
+        {
+            height:600px;
+            width:1000px;
+            background-color:#f6f6f6;
+            float:left;
+        }
+        #center
+        {
+            height:560px;
+            width:960px;
+            background-color: #FF9F9A;
+            margin:20px;
+
+        }
+        #top          /*返回首页and错误提示*/       
+        {
+            height:100px;
+            width:960px;
+            float:left;
+        
+        }
+        #link          /*返回首页*/
+        {
+            height: 40px;
+            width: 155px;
+            margin-left:80px;
+        }
+        #link a:link
+        {
+            font-size: 30px;
+            text-decoration: none;
+            font-family: 造字工房尚黑（非商用）特细体; 
+            font-weight: 900; 
+            color: #FFFFFF;
+        }
+        #regBox         /*注册框*/
+        {
+            height: 390px;
+            width: 420px;
+            background-image:url('../Images/reg.jpg');
+            margin-top:3px;
+            margin-left:250px;
+            float:left;
+        }
+
+        #boxtop
+        {
+            height:80px;
+            width:420px;
+        }
+        .textinput
+        {
+            height:60px;
+            width:420px;
+
+        }
+        #buttonlogin  /*注册按钮*/
+        {
+            height:40px;
+            width:416px;
+            margin-top:20px;
+        }
+        #cuowu
+        {
+            height: 48px;
+            width: 411px;
+            margin-left: 250px;
+        }
